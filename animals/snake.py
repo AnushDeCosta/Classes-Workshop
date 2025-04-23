@@ -14,3 +14,12 @@ class Snake():
         self.age = age
         self.sex = sex
         self.poisonous = poisonous
+
+    def hiss(self):
+        """
+        Outputs the hissing sound of the snake.
+        :return: None – prints a hissing sound to the console.
+        """
+        print("Hisss")
+
+
