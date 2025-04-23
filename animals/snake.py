@@ -17,9 +17,21 @@ class Snake():
 
     def hiss(self):
         """
-        Outputs the hissing sound of the snake.
-        :return: None – prints a hissing sound to the console.
+        Simulates the snake coiling up its body.
+        :return: None - prints a message with the snake's name to the console.
         """
-        print("Hisss")
+        sound = '"Hisssss"'
+        print(f"{sound}")
 
+    def coil(self):
+        """
+        Simulates the snake coiling up it's body
+        :return: None - prints a message to the console
+        """
+        print(f"{self.name} coils up its own body")
+
+snake = Snake("Squinky", 2, "Male", False)
+
+snake.hiss()
+snake.coil()
 
