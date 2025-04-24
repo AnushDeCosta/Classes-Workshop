@@ -15,9 +15,18 @@ class Cat():
         """
         print(self.cry)
 
+    def explore(self, location):
+        """
+        Method to take a location and add it to the list of locations.
+        :param location: String which represents the location that the cat explores
+        :return: None – prints message to the console.
+        """
+
+        print(f"{self.nickname} is exploring the {location}")
+        self.locations.append(location)
 
 pat = Cat()
 pat.speak()
-
+pat.explore("Bed Room")
 
 
