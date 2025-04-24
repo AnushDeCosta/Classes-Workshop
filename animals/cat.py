@@ -8,3 +8,16 @@ class Cat():
         self.cry = "Meow"
         self.locations = []
 
+    def speak(self):
+        """
+        Causes the cat to make its signature cry.
+        :return: None – prints the cry sound to the console.
+        """
+        print(self.cry)
+
+
+pat = Cat()
+pat.speak()
+
+
+
